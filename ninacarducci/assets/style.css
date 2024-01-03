@@ -69,7 +69,7 @@ body {
 
 .picture img {
 	width: 100%;
-
+    height: auto;
 }
 #about-me {
 	flex: 2
@@ -242,6 +242,13 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+/* Ajout CSS Image */
+
+#contact .picture img {
+	width: 419px;
+	height: 418px;
 }
 
 @media all and (max-width: 1180px) {
