@@ -244,12 +244,38 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
-/* Ajout CSS Image */
+/* Ajout CSS */
 
 #contact .picture img {
 	width: 419px;
 	height: 418px;
 }
+
+.carousel-item{
+	height: 100%;
+}
+
+.carousel-item img{
+	height: 100%;
+	object-fit: cover;
+}
+
+.carousel-inner{
+	--_computed_height: calc(100vh - 100px);
+	min-height: var(--_computed_height);
+	height: var(--_computed_height);
+	width: auto;
+	min-width: auto;
+	@media (max-width: 1000px){
+		min-height: 350px;
+	    height: 350px;
+	    width: auto;
+	    min-width: auto;
+	}
+}
+
+
+/* Fin Ajout CSS */
 
 @media all and (max-width: 1180px) {
 	.picture {
