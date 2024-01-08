@@ -91,7 +91,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
 }
 .title{
 	text-align: center;
@@ -256,9 +256,9 @@ input[type="submit"] {
 }
 
 .carousel-inner{
-	--_computed_height: calc(100vh - 100px);
-	min-height: var(--_computed_height);
-	height: var(--_computed_height);
+	--_height_carrousel: calc(100vh - 100px);
+	min-height: var(--_height_carrousel);
+	height: var(--_height__carrousel);
 	width: auto;
 	min-width: auto;
 	@media (max-width: 1000px){
