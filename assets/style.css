@@ -258,7 +258,7 @@ input[type="submit"] {
 .carousel-inner{
 	--_height_carrousel: calc(100vh - 100px);
 	min-height: var(--_height_carrousel);
-	height: var(--_height__carrousel);
+	height: var(--_height_carrousel);
 	width: auto;
 	min-width: auto;
 	@media (max-width: 1000px){
