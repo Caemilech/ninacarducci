@@ -246,11 +246,6 @@ input[type="submit"] {
 
 /* Ajout CSS */
 
-#contact .picture img {
-	width: 419px;
-	height: 418px;
-}
-
 .carousel-item{
 	height: 100%;
 }
